@@ -10,6 +10,5 @@ public class TestSpring {
     public void test(){
         ApplicationContext context=new ClassPathXmlApplicationContext("spring.xml");
         UserService service=(UserService)context.getBean("userService");
-        service.test();
     }
 }

@@ -1,5 +1,13 @@
 package com.longxi.service;
 
+import com.longxi.model.User;
+
+import java.io.Serializable;
+
 public interface UserService {
-    void test();
+    /**
+     *
+     * @return
+     */
+    Serializable save(User user);
   }
