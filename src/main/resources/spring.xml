@@ -17,8 +17,6 @@
         <context:property-placeholder location="classpath:jdbc.properties"/>
         <!-- 自动扫描dao和service包(自动注入) -->
         <context:component-scan base-package="com.longxi.dao,com.longxi.service"/>
-        <!--加载配置文件-->
-        <context:property-placeholder location="classpath:jdbc.properties"/>
 
         <!-- JNDI方式配置数据源 -->
         <!--
